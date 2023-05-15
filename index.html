@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Codificador de Mensaje</title>
+        <link rel="icon" href="imagenes/Logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <div id="bloque1">
+                <img src="imagenes/Logo.png" class="logo">
+
+            </div>
+
+            <div id="bloque2">
+                <img src="imagenes/Muñeco.png" class="muñeco">
+                
+                <section class="seccion1">
+                    <p class="p1-bloque2">Ningún mensaje fue encontrado</p>
+                    <p class="p2-bloque2">Ingresa el texto que desees encriptar o desencriptar</p>
+                </section>
+
+                <section class="seccion2">
+                    <textarea name="cuadroDeSalida" id="mensaje" cols="30" rows="10" readonly></textarea>
+                    <button class="copiar" type="button" onclick="copyText()">copiar</button>
+                </section>
+            </div>
+
+            <div id="bloque3">
+                <textarea name="textarea" id="cuadro-codificador" cols="42" rows="10" placeholder="Ingrese el texto aqui.." ></textarea>
+            </div>
+
+            <div id="bloque4">
+                <img src="file:///C:/Users/wilson/Downloads/exclamation-circle-fill.svg" alt="Exclamation Circle Fill" class="imgExclamacion">
+                <p class="p1-bloque4">Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div id="bloque5">    
+                <button class="botonCodificador" type="button"><p class="p1-bloque5">Codificar</p></button>
+                <button class="botonDescodificador" type="button"><p class="p2-bloque5">Descodificar</p></button>
+            </div>
+            <script src="logica.js"></script>
+        </main>
+        <footer>
+            <p class="pieDePagina">Creado Por Wilson Eguez Rojas</p>
+        </footer>        
+    </body>
+</html>
