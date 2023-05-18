@@ -451,6 +451,7 @@ footer {
         margin: auto;
     }
     footer {
+        width: 40em;
         height: 46em;
         align-items: end;
         justify-content: center;
@@ -461,13 +462,10 @@ footer {
     }
 }
 
-/*@media screen and (max-width:480px) {
-    body {
-        background-color: #1a4774;
+@media screen and (max-width:640px) {
+    main {
+    display: inline-table;
+    width: 105em;
+    max-width: 100%;
     }
-    .logo {
-        flex-direction: column;
-        gap: 1rem;
-        margin: 1rem auto;
-    }
-}*/
+}
